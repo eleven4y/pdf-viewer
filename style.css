@@ -1,0 +1,43 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.workspace {
+  position: relative;
+
+  min-height: 100vh;  
+}
+
+.document {
+  display: flex;
+  flex-direction: column;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.canvas {
+  margin: 5px;
+}
+
+.count {
+  position: fixed;
+
+  bottom: 5%;
+  left: 50%;
+
+  transform: translate(-50%, 0);
+
+  color: #ffffff;
+  background: #00A4E4;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 5px 10px;
+}
